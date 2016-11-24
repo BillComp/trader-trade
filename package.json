@@ -1,0 +1,44 @@
+{
+    "name": "Trade",
+    "version": "1.0.0",
+    "description": "ToBeFilled",
+    "keywords": [],
+    "main": "./Start.js",
+    "scripts": {
+        "start": "node Start.js"
+    },
+    "dependencies": {
+        "assign.js": "^2.3.0",
+        "async": "^2.1.2",
+        "floca": "^2.10.0",
+        "yargs": "^6.3.0",
+        "floca-amqp": "^2.10.0"
+    },
+    "devDependencies": {
+        "async": "^2.1.2",
+        "chai": "^3.5.0",
+        "eslint": "^3.7.1",
+        "eslint-config-airbnb": "^12.0.0",
+        "eslint-config-standard": "^6.2.0",
+        "eslint-friendly-formatter": "^2.0.6",
+        "eslint-loader": "^1.5.0",
+        "eslint-plugin-html": "^1.5.3",
+        "eslint-plugin-import": "^2.0.0",
+        "eslint-plugin-promise": "^3.0.0",
+        "eslint-plugin-standard": "^2.0.1",
+        "gulp": "github:gulpjs/gulp#4.0",
+        "gulp-eslint": "^3.0.1",
+        "gulp-istanbul": "^1.1.1",
+        "gulp-load-plugins": "^1.4.0",
+        "gulp-mocha": "^3.0.1",
+        "gulp-plumber": "^1.1.0",
+        "gulp-util": "^3.0.7",
+        "isa.js": "^1.7.5",
+        "minimist": "^1.2.0",
+        "mocha": "^3.1.1",
+        "tail": "^1.2.1"
+    },
+    "engines": {
+        "node": ">= 6.0.0"
+    }
+}
